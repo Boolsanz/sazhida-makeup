@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#100e19" />
+    <meta
+      name="description"
+      content="Портфолио визажиста Сажиды Турсунжановой: макияж, цветовые образы, графика и beauty-наставничество."
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23100e19'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia,serif' font-size='34' font-weight='700' fill='%23fff6f0'%3ES.%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+    <title>Портфолио — Сажида Makeup Artist</title>
+  </head>
+  <body class="portfolio-page">
+    <div class="portfolio-noise" aria-hidden="true"></div>
+    <div class="cursor-aura" aria-hidden="true"></div>
+
+    <header class="portfolio-header">
+      <a class="portfolio-brand" href="index.html" aria-label="На главную сайта Сажиды">
+        <span class="portfolio-brand__mark">S.</span>
+        <span>Sazhida<br />Makeup artist</span>
+      </a>
+      <nav aria-label="Основная навигация">
+        <a href="index.html#services">Услуги</a>
+        <a class="is-current" href="portfolio.html">Портфолио</a>
+        <a href="index.html#booking">Запись</a>
+      </nav>
+      <a class="portfolio-header__instagram" href="https://www.instagram.com/sazhida_makeup/" target="_blank" rel="noreferrer">Instagram</a>
+    </header>
+
+    <main>
+      <section class="portfolio-hero" aria-labelledby="portfolio-title">
+        <div class="portfolio-hero__wash portfolio-hero__wash--one" aria-hidden="true"></div>
+        <div class="portfolio-hero__wash portfolio-hero__wash--two" aria-hidden="true"></div>
+        <p class="portfolio-eyebrow portfolio-reveal">01 / visual diary · алматы · чунджа</p>
+        <div class="portfolio-hero__layout">
+          <div class="portfolio-hero__copy portfolio-reveal">
+            <h1 id="portfolio-title">Every face<br /><em>has a colour.</em></h1>
+            <p>Архив работ Сажиды: сияние, графика, мягкие нюдовые оттенки и образы, в которых хочется остаться.</p>
+            <a class="portfolio-scroll-link" href="#portfolio-grid">Листать работы</a>
+          </div>
+
+          <div class="portfolio-collage" aria-hidden="true">
+            <figure class="portfolio-collage__card portfolio-collage__card--back"><img src="assets/instagram/ec1ee6835db16928.jpg" alt="" /></figure>
+            <figure class="portfolio-collage__card portfolio-collage__card--main"><img src="assets/instagram/4f4503aa8bc11a10.jpg" alt="" /></figure>
+            <figure class="portfolio-collage__card portfolio-collage__card--front"><img src="assets/instagram/f80469e35956139d.jpg" alt="" /></figure>
+            <span class="portfolio-collage__ring portfolio-collage__ring--one"></span>
+            <span class="portfolio-collage__ring portfolio-collage__ring--two"></span>
+            <span class="portfolio-collage__label">SAZHIDA<br />ARCHIVE / 26</span>
+          </div>
+        </div>
+        <div class="portfolio-hero__meta portfolio-reveal">
+          <span>23 образа в архиве</span>
+          <span>Нажмите на фото, чтобы рассмотреть детали</span>
+        </div>
+      </section>
+
+      <div class="portfolio-marquee" aria-hidden="true">
+        <div>SOFT GLAM <i>✦</i> COLOUR PLAY <i>✦</i> GRAPHIC EYES <i>✦</i> GLOW SKIN <i>✦</i> SOFT GLAM <i>✦</i> COLOUR PLAY <i>✦</i> GRAPHIC EYES <i>✦</i> GLOW SKIN <i>✦</i></div>
+      </div>
+
+      <section class="portfolio-archive" id="portfolio-grid" aria-labelledby="archive-title">
+        <div class="portfolio-archive__top">
+          <div class="portfolio-reveal">
+            <p class="portfolio-eyebrow">02 / archive</p>
+            <h2 id="archive-title">Все настроения<br /><em>в одном кадре.</em></h2>
+          </div>
+          <p class="portfolio-archive__note portfolio-reveal">Образы собраны из публичного профиля @sazhida_makeup. Новые работы продолжаются в Instagram.</p>
+        </div>
+
+        <div class="portfolio-filter portfolio-reveal" aria-label="Фильтр работ">
+          <button class="is-active" type="button" data-filter="all">Все <span>23</span></button>
+          <button type="button" data-filter="soft">Soft glam <span>06</span></button>
+          <button type="button" data-filter="evening">Evening <span>06</span></button>
+          <button type="button" data-filter="colour">Colour <span>05</span></button>
+          <button type="button" data-filter="graphic">Graphic <span>06</span></button>
+        </div>
+
+        <div class="portfolio-grid">
+          <button class="portfolio-card portfolio-card--wide portfolio-reveal" type="button" data-category="soft" data-image="assets/instagram/4f4503aa8bc11a10.jpg" data-look="Golden hour / soft glam" aria-label="Открыть Golden hour">
+            <img src="assets/instagram/4f4503aa8bc11a10.jpg" alt="Золотистый вечерний макияж" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Golden hour</b><i>01 / soft glam</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--tall portfolio-reveal" type="button" data-category="soft" data-image="assets/instagram/8112ef7ba69477db.jpg" data-look="Soft veil / soft glam" aria-label="Открыть Soft veil">
+            <img src="assets/instagram/8112ef7ba69477db.jpg" alt="Нежный макияж для особого дня" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Soft veil</b><i>02 / soft glam</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--colour portfolio-reveal" type="button" data-category="colour" data-image="assets/instagram/ec1ee6835db16928.jpg" data-look="Electric plum / colour play" aria-label="Открыть Electric plum">
+            <img src="assets/instagram/ec1ee6835db16928.jpg" alt="Яркий макияж в сливовых оттенках" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Electric plum</b><i>03 / colour</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--dark portfolio-reveal" type="button" data-category="evening" data-image="assets/instagram/c0bbf64f765d6065.jpg" data-look="After dark / evening" aria-label="Открыть After dark">
+            <img src="assets/instagram/c0bbf64f765d6065.jpg" alt="Вечерний образ с сиянием" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>After dark</b><i>04 / evening</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--tall portfolio-reveal" type="button" data-category="soft" data-image="assets/instagram/d5b2632a49374d2f.jpg" data-look="Pearl skin / soft glam" aria-label="Открыть Pearl skin">
+            <img src="assets/instagram/d5b2632a49374d2f.jpg" alt="Макияж с жемчужным сиянием кожи" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Pearl skin</b><i>05 / soft glam</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--violet portfolio-reveal" type="button" data-category="colour" data-image="assets/instagram/7bade3d6d9d5e441.jpg" data-look="Violet mood / colour play" aria-label="Открыть Violet mood">
+            <img src="assets/instagram/7bade3d6d9d5e441.jpg" alt="Макияж в фиолетовых оттенках" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Violet mood</b><i>06 / colour</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--graphic portfolio-reveal" type="button" data-category="graphic" data-image="assets/instagram/f80469e35956139d.jpg" data-look="Graphic line / graphic eyes" aria-label="Открыть Graphic line">
+            <img src="assets/instagram/f80469e35956139d.jpg" alt="Графичный макияж глаз" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Graphic line</b><i>07 / graphic</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--peach portfolio-reveal" type="button" data-category="evening" data-image="assets/instagram/22594916da8761e4.jpg" data-look="Peach bloom / evening" aria-label="Открыть Peach bloom">
+            <img src="assets/instagram/22594916da8761e4.jpg" alt="Образ с тёплым сиянием" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Peach bloom</b><i>08 / evening</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--gloss portfolio-reveal" type="button" data-category="soft" data-image="assets/instagram/4caf78b85604beb3.jpg" data-look="Gloss notes / soft glam" aria-label="Открыть Gloss notes">
+            <img src="assets/instagram/4caf78b85604beb3.jpg" alt="Макияж с глянцевым акцентом" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Gloss notes</b><i>09 / soft glam</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--red portfolio-reveal" type="button" data-category="evening" data-image="assets/instagram/6e7c07c0d7a48775.jpg" data-look="Rouge line / evening" aria-label="Открыть Rouge line">
+            <img src="assets/instagram/6e7c07c0d7a48775.jpg" alt="Выразительный вечерний макияж" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Rouge line</b><i>10 / evening</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--graphic portfolio-reveal" type="button" data-category="graphic" data-image="assets/instagram/c92b589f20f0c1e6.jpg" data-look="Black silk / graphic eyes" aria-label="Открыть Black silk">
+            <img src="assets/instagram/c92b589f20f0c1e6.jpg" alt="Макияж с акцентом на глаза" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Black silk</b><i>11 / graphic</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--colour portfolio-reveal" type="button" data-category="colour" data-image="assets/instagram/d9234d5ea3b786ff.jpg" data-look="Lilac pulse / colour play" aria-label="Открыть Lilac pulse">
+            <img src="assets/instagram/d9234d5ea3b786ff.jpg" alt="Макияж в цветовой палитре" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Lilac pulse</b><i>12 / colour</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--tall portfolio-reveal" type="button" data-category="soft" data-image="assets/instagram/832527461_18379209637239220_4541861541436099590_n.jpg" data-look="Crystal glow / pearl soft glam" aria-label="Открыть Crystal glow">
+            <img src="assets/instagram/832527461_18379209637239220_4541861541436099590_n.jpg" alt="Тёплый soft glam с кристаллическими акцентами" loading="lazy" decoding="async" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Crystal glow</b><i>13 / soft glam</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--gloss portfolio-reveal" type="button" data-category="soft" data-image="assets/instagram/832040974_18379209649239220_6797038459638454600_n.jpg" data-look="Pearl hour / soft glam" aria-label="Открыть Pearl hour">
+            <img src="assets/instagram/832040974_18379209649239220_6797038459638454600_n.jpg" alt="Жемчужный soft glam крупным планом" loading="lazy" decoding="async" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Pearl hour</b><i>14 / soft glam</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--violet portfolio-reveal" type="button" data-category="colour" data-image="assets/instagram/820335944_18378125032239220_629625120827240827_n.jpg" data-look="Lilac graphic / colour play" aria-label="Открыть Lilac graphic">
+            <img src="assets/instagram/820335944_18378125032239220_629625120827240827_n.jpg" alt="Лиловые графичные глаза крупным планом" loading="lazy" decoding="async" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Lilac graphic</b><i>15 / colour</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--graphic portfolio-reveal" type="button" data-category="graphic" data-image="assets/instagram/819811714_18378125017239220_2626321637430266411_n.jpg" data-look="Violet structure / graphic eyes" aria-label="Открыть Violet structure">
+            <img src="assets/instagram/819811714_18378125017239220_2626321637430266411_n.jpg" alt="Графичный лиловый макияж на полном портрете" loading="lazy" decoding="async" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Violet structure</b><i>16 / graphic</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--colour portfolio-reveal" type="button" data-category="colour" data-image="assets/instagram/820426681_18378124933239220_2472356281456608416_n.jpg" data-look="Lilac haze / colour play" aria-label="Открыть Lilac haze">
+            <img src="assets/instagram/820426681_18378124933239220_2472356281456608416_n.jpg" alt="Мягкий лиловый портрет" loading="lazy" decoding="async" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Lilac haze</b><i>17 / colour</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--tall portfolio-card--graphic portfolio-reveal" type="button" data-category="graphic" data-image="assets/instagram/801581128_18375743731239220_4555299603206728856_n.jpg" data-look="Double wing / graphic eyes" aria-label="Открыть Double wing">
+            <img src="assets/instagram/801581128_18375743731239220_4555299603206728856_n.jpg" alt="Нюдовый макияж с двойной графичной стрелкой" loading="lazy" decoding="async" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Double wing</b><i>18 / graphic</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--peach portfolio-reveal" type="button" data-category="graphic" data-image="assets/instagram/801581125_18375743749239220_2636582248851488132_n.jpg" data-look="Gold liner / graphic eyes" aria-label="Открыть Gold liner">
+            <img src="assets/instagram/801581125_18375743749239220_2636582248851488132_n.jpg" alt="Нюдовый образ с двойной стрелкой и золотым аксессуаром" loading="lazy" decoding="async" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Gold liner</b><i>19 / graphic</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--dark portfolio-reveal" type="button" data-category="graphic" data-image="assets/instagram/801581126_18375743740239220_2034783595015907225_n.jpg" data-look="Liner profile / graphic eyes" aria-label="Открыть Liner profile">
+            <img src="assets/instagram/801581126_18375743740239220_2034783595015907225_n.jpg" alt="Профиль с графичным нюдовым макияжем" loading="lazy" decoding="async" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Liner profile</b><i>20 / graphic</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--tall portfolio-reveal" type="button" data-category="evening" data-image="assets/instagram/798180171_18375351373239220_3417434966406755713_n.jpg" data-look="Silver ritual / editorial glam" aria-label="Открыть Silver ritual">
+            <img src="assets/instagram/798180171_18375351373239220_3417434966406755713_n.jpg" alt="Серебряный editorial glam с укладкой" loading="lazy" decoding="async" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Silver ritual</b><i>21 / evening</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--gloss portfolio-reveal" type="button" data-category="evening" data-image="assets/instagram/798432370_18375351382239220_8370659726028742152_n.jpg" data-look="Silver frame / editorial glam" aria-label="Открыть Silver frame">
+            <img src="assets/instagram/798432370_18375351382239220_8370659726028742152_n.jpg" alt="Серебряный beauty-портрет" loading="lazy" decoding="async" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Silver frame</b><i>22 / evening</i></span>
+          </button>
+          <button class="portfolio-card portfolio-card--red portfolio-reveal" type="button" data-category="evening" data-image="assets/instagram/798488620_18375351391239220_5930070989337492679_n.jpg" data-look="Silver motion / editorial glam" aria-label="Открыть Silver motion">
+            <img src="assets/instagram/798488620_18375351391239220_5930070989337492679_n.jpg" alt="Серебряный editorial образ в движении" loading="lazy" decoding="async" />
+            <span class="portfolio-card__wash"></span><span class="portfolio-card__meta"><b>Silver motion</b><i>23 / evening</i></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="portfolio-closing" aria-label="Запись на макияж">
+        <div class="portfolio-closing__sphere portfolio-closing__sphere--one" aria-hidden="true"></div>
+        <div class="portfolio-closing__sphere portfolio-closing__sphere--two" aria-hidden="true"></div>
+        <p class="portfolio-eyebrow portfolio-reveal">03 / next look</p>
+        <h2 class="portfolio-reveal">Ваш следующий<br /><em>любимый образ.</em></h2>
+        <p class="portfolio-reveal">Для записи выберите удобный формат — остальное обсудим в WhatsApp.</p>
+        <a class="portfolio-book portfolio-reveal" href="index.html#booking"><span>Записаться на образ</span></a>
+      </section>
+    </main>
+
+    <footer class="portfolio-footer">
+      <p>Сажида Турсунжанова<br /><span>Makeup artist · Beauty mentor</span></p>
+      <a href="https://www.instagram.com/sazhida_makeup/" target="_blank" rel="noreferrer">@sazhida_makeup</a>
+      <small>© <span id="portfolio-year"></span> Сажида</small>
+    </footer>
+
+    <dialog class="portfolio-modal" id="portfolio-modal" aria-label="Просмотр работы">
+      <button class="portfolio-modal__close" type="button" aria-label="Закрыть просмотр">×</button>
+      <img src="" alt="" />
+      <div><span></span><a href="https://www.instagram.com/sazhida_makeup/" target="_blank" rel="noreferrer">Открыть Instagram</a></div>
+    </dialog>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>

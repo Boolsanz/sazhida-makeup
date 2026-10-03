@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#15100f" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%2315100f'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia,serif' font-size='34' font-weight='700' fill='%23f6eee8'%3ES.%3C/text%3E%3C/svg%3E"
+    />
+    <meta
+      name="description"
+      content="Сажида Турсунжанова — визажист и бьюти-наставник в Алматы и Чундже. Макияж, образы и обучение."
+    />
+    <title>Сажида — Makeup Artist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="preloader" aria-hidden="true">
+      <span class="preloader__mark">S.</span>
+      <span class="preloader__line"></span>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="На главную">
+        <span class="brand__mark">S.</span>
+        <span class="brand__text">Sazhida<br />Makeup artist</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a href="#services">Форматы</a>
+        <a href="#works">Работы</a>
+        <a href="portfolio.html">Портфолио</a>
+        <a href="#about">Обо мне</a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+        <span>Меню</span>
+        <i></i>
+      </button>
+    </header>
+
+    <aside class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu__top">
+        <span>Навигация</span>
+        <button class="menu-close" type="button" aria-label="Закрыть меню">×</button>
+      </div>
+      <nav aria-label="Мобильная навигация">
+        <a href="#services">Форматы работы <span>01</span></a>
+        <a href="#works">Избранные работы <span>02</span></a>
+        <a href="portfolio.html">Всё портфолио <span>03</span></a>
+        <a href="#about">О Сажиде <span>04</span></a>
+        <a href="#booking">Записаться <span>05</span></a>
+      </nav>
+      <a class="mobile-menu__social" href="https://www.instagram.com/sazhida_makeup/" target="_blank" rel="noreferrer">
+        @sazhida_makeup ↗
+      </a>
+    </aside>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero__pin">
+          <canvas id="glow-canvas" aria-hidden="true"></canvas>
+          <div class="hero__grain" aria-hidden="true"></div>
+          <div class="hero__wash hero__wash--one" aria-hidden="true"></div>
+          <div class="hero__wash hero__wash--two" aria-hidden="true"></div>
+
+          <p class="hero__eyebrow">Алматы · Чунджа <span>✦</span> Makeup expert</p>
+          <div class="hero__word hero__word--left" aria-hidden="true">Beauty</div>
+          <div class="hero__word hero__word--right" aria-hidden="true">Unfolded</div>
+
+          <div class="beauty-object" data-hero-object>
+            <div class="orbit orbit--wide" aria-hidden="true"></div>
+            <div class="orbit orbit--thin" aria-hidden="true"></div>
+            <div class="orbit orbit--vertical" aria-hidden="true"></div>
+            <div class="orbit-dot orbit-dot--one" aria-hidden="true"></div>
+            <div class="orbit-dot orbit-dot--two" aria-hidden="true"></div>
+
+            <div class="compact compact--back" aria-hidden="true"></div>
+            <div class="compact compact--middle" aria-hidden="true"></div>
+            <div class="compact compact--front">
+              <div class="compact__chrome"></div>
+              <div class="compact__photo-wrap">
+                <img src="assets/instagram/4f4503aa8bc11a10.jpg" alt="Макияж от Сажиды" />
+              </div>
+              <div class="compact__gloss" aria-hidden="true"></div>
+              <span class="compact__label">SAZHIDA / 2026</span>
+            </div>
+            <div class="hero-mini hero-mini--one" aria-hidden="true">
+              <img src="assets/instagram/ec1ee6835db16928.jpg" alt="" />
+            </div>
+            <div class="hero-mini hero-mini--two" aria-hidden="true">
+              <img src="assets/instagram/d5b2632a49374d2f.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="hero__copy">
+            <p class="hero__kicker">Топ-визажист · бьюти-наставник</p>
+            <h1 id="hero-heading">Макияж,<br /><em>в котором</em><br />видно вас.</h1>
+            <p class="hero__subcopy">
+              Образы, которые подчёркивают характер, а не прячут его.<br />
+              Для особенных дней, камер и вашего внутреннего «вау».
+            </p>
+          </div>
+
+          <div class="hero__bottom">
+            <a class="text-link" href="#works">Смотреть работы <span>↓</span></a>
+            <p class="hero__scroll">листайте, чтобы раскрыть образ</p>
+            <a class="hero__instagram" href="https://www.instagram.com/sazhida_makeup/" target="_blank" rel="noreferrer">
+              Instagram <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="manifesto" aria-labelledby="manifesto-heading">
+        <div class="manifesto__image" aria-hidden="true">
+          <img src="assets/instagram/c0bbf64f765d6065.jpg" alt="" />
+        </div>
+        <div class="manifesto__shade" aria-hidden="true"></div>
+        <div class="manifesto__content reveal">
+          <p class="section-tag">01 / Мой подход</p>
+          <h2 id="manifesto-heading">
+            Макияж — это не маска.<br />
+            Это <em>свет</em>, который<br />
+            остаётся <span>с вами.</span>
+          </h2>
+          <p>
+            Я работаю с формой, фактурой и настроением — чтобы вы чувствовали себя собой,
+            только ещё увереннее.
+          </p>
+        </div>
+        <div class="manifesto__seal" aria-hidden="true">
+          <span>beauty · confidence · detail ·</span>
+          <b>✦</b>
+        </div>
+      </section>
+
+      <section class="services" id="services" aria-labelledby="services-heading">
+        <div class="section-head reveal">
+          <p class="section-tag">02 / Форматы</p>
+          <h2 id="services-heading">Красота<br /><em>в вашем ритме.</em></h2>
+          <p class="section-intro">
+            От продуманного образа до наставничества — выбирайте формат, который нужен именно сейчас.
+          </p>
+        </div>
+
+        <div class="service-list">
+          <article class="service-card reveal" data-service="Макияж и прическа">
+            <span class="service-card__number">01</span>
+            <div>
+              <p class="service-card__kind">Для особенного дня</p>
+              <h3>Макияж<br />и прическа</h3>
+            </div>
+            <p class="service-card__description">Цельный образ с настроением, стойкостью и вниманием к каждой детали.</p>
+            <button class="round-arrow" type="button" aria-label="Выбрать макияж и прическу">↗</button>
+          </article>
+
+          <article class="service-card reveal" data-service="Beauty-наставничество и обучение">
+            <span class="service-card__number">02</span>
+            <div>
+              <p class="service-card__kind">Для профессионального роста</p>
+              <h3>Beauty-<br />наставничество</h3>
+            </div>
+            <p class="service-card__description">Обучение, техника и поддержка для тех, кто хочет чувствовать себя увереннее в бьюти-сфере.</p>
+            <button class="round-arrow" type="button" aria-label="Выбрать обучение">↗</button>
+          </article>
+
+          <article class="service-card reveal" data-action="instagram">
+            <span class="service-card__number">03</span>
+            <div>
+              <p class="service-card__kind">Для вдохновения</p>
+              <h3>Туториалы<br />и техники</h3>
+            </div>
+            <p class="service-card__description">Любимые приёмы, графика и детали макияжа — в коротких видео и beauty-контенте Сажиды.</p>
+            <button class="round-arrow" type="button" aria-label="Открыть Instagram Сажиды">↗</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="work-section" id="works" aria-labelledby="works-heading">
+        <div class="work-section__top reveal">
+          <div>
+            <p class="section-tag">03 / Избранные работы</p>
+            <h2 id="works-heading">Looks that<br /><em>stay with you.</em></h2>
+          </div>
+          <p>Нажмите на любую работу, чтобы рассмотреть детали образа.</p>
+        </div>
+
+        <div class="gallery">
+          <button class="gallery-card gallery-card--tall reveal" type="button" data-image="assets/instagram/4f4503aa8bc11a10.jpg" data-look="Golden hour / 01" aria-label="Открыть работу Golden hour">
+            <img src="assets/instagram/4f4503aa8bc11a10.jpg" alt="Золотистый вечерний макияж" />
+            <span class="gallery-card__meta"><b>Golden hour</b><i>01</i></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-image="assets/instagram/8112ef7ba69477db.jpg" data-look="Soft veil / 02" aria-label="Открыть работу Soft veil">
+            <img src="assets/instagram/8112ef7ba69477db.jpg" alt="Нежный макияж для особого дня" />
+            <span class="gallery-card__meta"><b>Soft veil</b><i>02</i></span>
+          </button>
+          <button class="gallery-card gallery-card--wide reveal" type="button" data-image="assets/instagram/c0bbf64f765d6065.jpg" data-look="After dark / 03" aria-label="Открыть работу After dark">
+            <img src="assets/instagram/c0bbf64f765d6065.jpg" alt="Вечерний образ с сиянием" />
+            <span class="gallery-card__meta"><b>After dark</b><i>03</i></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-image="assets/instagram/ec1ee6835db16928.jpg" data-look="Electric plum / 04" aria-label="Открыть работу Electric plum">
+            <img src="assets/instagram/ec1ee6835db16928.jpg" alt="Яркий макияж в сливовых оттенках" />
+            <span class="gallery-card__meta"><b>Electric plum</b><i>04</i></span>
+          </button>
+          <button class="gallery-card gallery-card--tall reveal" type="button" data-image="assets/instagram/d5b2632a49374d2f.jpg" data-look="Pearl skin / 05" aria-label="Открыть работу Pearl skin">
+            <img src="assets/instagram/d5b2632a49374d2f.jpg" alt="Макияж с жемчужным сиянием кожи" />
+            <span class="gallery-card__meta"><b>Pearl skin</b><i>05</i></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-image="assets/instagram/7bade3d6d9d5e441.jpg" data-look="Violet mood / 06" aria-label="Открыть работу Violet mood">
+            <img src="assets/instagram/7bade3d6d9d5e441.jpg" alt="Макияж в фиолетовых оттенках" />
+            <span class="gallery-card__meta"><b>Violet mood</b><i>06</i></span>
+          </button>
+          <button class="gallery-card reveal" type="button" data-image="assets/instagram/f80469e35956139d.jpg" data-look="Graphic line / 07" aria-label="Открыть работу Graphic line">
+            <img src="assets/instagram/f80469e35956139d.jpg" alt="Графичный макияж глаз" />
+            <span class="gallery-card__meta"><b>Graphic line</b><i>07</i></span>
+          </button>
+        </div>
+
+        <a class="portfolio-cta reveal" href="portfolio.html">
+          <span>Открыть всё портфолио</span>
+          <b>23 работы <i>↗</i></b>
+        </a>
+
+        <a class="instagram-card reveal" href="https://www.instagram.com/sazhida_makeup/" target="_blank" rel="noreferrer">
+          <span>Ещё образы, отзывы и актуальный прайс — в Instagram</span>
+          <b>@sazhida_makeup <i>↗</i></b>
+        </a>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-heading">
+        <div class="about__visual reveal" aria-hidden="true">
+          <div class="about__disc about__disc--one"></div>
+          <div class="about__disc about__disc--two"></div>
+          <img src="assets/instagram/22594916da8761e4.jpg" alt="" />
+          <p>MAKEUP EXPERT<br />ALMATY · CHUNDZHA</p>
+        </div>
+        <div class="about__copy reveal">
+          <p class="section-tag">04 / Обо мне</p>
+          <h2 id="about-heading">Сажида<br /><em>Турсунжанова</em></h2>
+          <p class="about__lead">
+            Топ-визажист и бьюти-наставник. Здесь — про макияж, красоту и любовь к себе.
+          </p>
+          <p>
+            В образе важна не только техника. Важны спокойствие перед событием, чувство меры и то самое
+            отражение в зеркале, которое хочется запомнить.
+          </p>
+          <div class="about__facts">
+            <span><b>12.9K</b> подписчиков<br />в Instagram</span>
+            <span><b>2</b> города<br />Алматы · Чунджа</span>
+          </div>
+          <a class="outline-button" href="https://www.instagram.com/sazhida_makeup/" target="_blank" rel="noreferrer">Познакомиться ближе <span>↗</span></a>
+        </div>
+      </section>
+
+      <section class="booking" id="booking" aria-labelledby="booking-heading">
+        <div class="booking__backdrop" aria-hidden="true"></div>
+        <div class="booking__intro reveal">
+          <p class="section-tag">05 / Запись</p>
+          <h2 id="booking-heading">Ваш следующий<br /><em>красивый день</em><br />начинается здесь.</h2>
+          <p>Оставьте запрос — сформируем сообщение для быстрой записи в WhatsApp.</p>
+          <div class="booking__contact">
+            <span>или напишите напрямую</span>
+            <a href="https://wa.me/message/A5ESXQIEMAKQE1" target="_blank" rel="noreferrer">WhatsApp <i>↗</i></a>
+          </div>
+        </div>
+
+        <form class="booking-form reveal" id="booking-form" novalidate>
+          <label>
+            <span>Ваше имя</span>
+            <input name="name" autocomplete="name" placeholder="Как к вам обращаться?" required />
+          </label>
+          <label>
+            <span>Телефон</span>
+            <input name="phone" autocomplete="tel" inputmode="tel" placeholder="+7 700 000 00 00" required />
+          </label>
+          <label>
+            <span>Что вас интересует?</span>
+            <select name="service" required>
+              <option value="" selected disabled>Выберите формат</option>
+              <option>Макияж и прическа</option>
+              <option>Beauty-наставничество и обучение</option>
+              <option>Туториалы / beauty-контент</option>
+              <option>Другое / хочу обсудить</option>
+            </select>
+          </label>
+          <label>
+            <span>Дата или пожелание</span>
+            <input name="date" placeholder="Например: 24 октября, Алматы" />
+          </label>
+          <label class="booking-form__message">
+            <span>Пара слов об образе</span>
+            <textarea name="message" rows="3" placeholder="Какое настроение, повод или идея?"></textarea>
+          </label>
+          <p class="form-note">Сформируем аккуратный запрос: его можно скопировать и отправить Сажиде в WhatsApp.</p>
+          <button class="submit-button" type="submit"><span>Подготовить запрос</span><i>↗</i></button>
+          <p class="form-error" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <a class="floating-book" href="#booking">
+      <span>Записаться</span>
+      <i>↗</i>
+    </a>
+
+    <footer class="site-footer">
+      <a class="brand brand--footer" href="#top">
+        <span class="brand__mark">S.</span>
+        <span class="brand__text">Sazhida<br />Makeup artist</span>
+      </a>
+      <p>Алматы · Чунджа<br />Красота, которая остаётся вашей.</p>
+      <div>
+        <a href="portfolio.html">Портфолио ↗</a>
+        <a href="https://www.instagram.com/sazhida_makeup/" target="_blank" rel="noreferrer">Instagram ↗</a>
+        <a href="https://wa.me/message/A5ESXQIEMAKQE1" target="_blank" rel="noreferrer">WhatsApp ↗</a>
+      </div>
+      <small>© <span id="year"></span> Сажида Турсунжанова</small>
+    </footer>
+
+    <dialog class="look-modal" id="look-modal" aria-label="Просмотр работы">
+      <button class="look-modal__close" type="button" aria-label="Закрыть просмотр">×</button>
+      <img src="" alt="" />
+      <div class="look-modal__caption"><span></span><a href="https://www.instagram.com/sazhida_makeup/" target="_blank" rel="noreferrer">Смотреть Instagram ↗</a></div>
+    </dialog>
+
+    <dialog class="request-modal" id="request-modal" aria-labelledby="request-heading">
+      <button class="request-modal__close" type="button" aria-label="Закрыть окно">×</button>
+      <p class="section-tag">Запрос готов</p>
+      <h2 id="request-heading">Остался один<br /><em>клик.</em></h2>
+      <p>Скопируйте текст и откройте чат с Сажидой — так все детали записи уже будут под рукой.</p>
+      <textarea id="request-message" readonly aria-label="Текст запроса"></textarea>
+      <div class="request-modal__actions">
+        <button class="copy-request" type="button">Скопировать запрос</button>
+        <a class="open-whatsapp" href="https://wa.me/message/A5ESXQIEMAKQE1" target="_blank" rel="noreferrer">Открыть WhatsApp <span>↗</span></a>
+      </div>
+      <span class="copy-status" aria-live="polite"></span>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
